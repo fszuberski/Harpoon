@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.10.1"
+    id("org.jetbrains.intellij") version "1.13.3"
 }
 
 group = "ca.alexgirard"
-version = "0.1.0"
+version = "0.1.2-patched-fsz"
 
 repositories {
     mavenCentral()
@@ -22,12 +22,12 @@ intellij {
 tasks {
     // Set the JVM compatibility versions
     withType<JavaCompile> {
-        sourceCompatibility = "11"
-        targetCompatibility = "11"
+        sourceCompatibility = "17"
+        targetCompatibility = "17"
     }
 
     patchPluginXml {
-        sinceBuild.set("221")
+        sinceBuild.set("223")
     }
     buildSearchableOptions {
         enabled = false

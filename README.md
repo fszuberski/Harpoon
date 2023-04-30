@@ -20,9 +20,9 @@ Can Directly set file to specific index or just add file to first empty spot
 
 `ShowHarpoon` Shows the harpoon dialog
 
-`GotoHarpoon[1-5]` Goes to file saved in specific index
+`GotoHarpoon[1-8]` Goes to file saved in specific index
 
-`SetHarpoon[1-5]` Sets current file to specific index
+`SetHarpoon[1-8]` Sets current file to specific index
 
 `AddToHarpoon` Sets the current file to the first available empty index
 

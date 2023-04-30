@@ -60,6 +60,18 @@
                 text="Goto Harpoon File 5">
             <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
         </action>
+        <action id="GotoHarpoon6" class="ca.alexgirard.harpoonIJ.GotoHarpoon6Action"
+                text="Goto Harpoon File 6">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
+        <action id="GotoHarpoon7" class="ca.alexgirard.harpoonIJ.GotoHarpoon7Action"
+                text="Goto Harpoon File 7">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
+        <action id="GotoHarpoon8" class="ca.alexgirard.harpoonIJ.GotoHarpoon8Action"
+                text="Goto Harpoon File 8">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
 
         <action id="SetHarpoon1" class="ca.alexgirard.harpoonIJ.SetHarpoonFileAction1"
                 text="Set Harpoon File 1">
@@ -79,6 +91,18 @@
         </action>
         <action id="SetHarpoon5" class="ca.alexgirard.harpoonIJ.SetHarpoonFileAction5"
                 text="Set Harpoon File 5">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
+        <action id="SetHarpoon6" class="ca.alexgirard.harpoonIJ.SetHarpoonFileAction6"
+                text="Set Harpoon File 6">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
+        <action id="SetHarpoon7" class="ca.alexgirard.harpoonIJ.SetHarpoonFileAction7"
+                text="Set Harpoon File 7">
+            <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
+        </action>
+        <action id="SetHarpoon8" class="ca.alexgirard.harpoonIJ.SetHarpoonFileAction8"
+                text="Set Harpoon File 8">
             <add-to-group group-id="ca.alexgirard.harpoonIJ.mainGroup"/>
         </action>
         <action id="AddToHarpoon" class="ca.alexgirard.harpoonIJ.AddToHarpoonAction"
